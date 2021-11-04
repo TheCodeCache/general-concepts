@@ -1,12 +1,13 @@
 Shell-Script usually begins with one of the following typical line:
-- `#!/bin/bash` - Execute the file using the `Bash shell`
-- `#!/bin/ksh` - Execute the file using the `Korn shell`
-- `#!/bin/sh` - Execute the file using the `Bourne shell`, or a compatible shell, assumed to be in the /bin directory
-- `#!/usr/bin/env bash` - Execute the file using the `Bash shell`
-- `#!/usr/bin/env sh` - Execute the file using the `Bourne shell`, or a compatible shell, assumed to be in the /bin directory
-- `#!/usr/bin/env python` - Execute with a `Python interpreter`, using the env program search path to find it
-- `#!/usr/bin/pwsh` - Execute the file using `PowerShell`
-- `#!/bin/false` - `Do nothing, but return a non-zero exit status, indicating failure`. 
+
+- #!/bin/bash - Execute the file using the `Bash shell`
+- #!/bin/ksh - Execute the file using the `Korn shell`
+- #!/bin/sh - Execute the file using the `Bourne shell`, or a compatible shell, assumed to be in the /bin directory
+- #!/usr/bin/env bash - Execute the file using the `Bash shell`
+- #!/usr/bin/env sh - Execute the file using the `Bourne shell`, or a compatible shell, assumed to be in the /bin directory
+- #!/usr/bin/env python - Execute with a `Python interpreter`, using the env program search path to find it
+- #!/usr/bin/pwsh - Execute the file using `PowerShell`
+- #!/bin/false - `Do nothing, but return a non-zero exit status, indicating failure`. 
     Used to prevent stand-alone execution of a script file intended for execution in a specific context, 
       such as by the `.` command from sh/bash, `source` from csh/tcsh, or as a .profile, .cshrc, or .login file
 
