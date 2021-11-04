@@ -1,3 +1,6 @@
+The format of a 'shebang' interpreter directive is as follows
+    #!interpreter [optional-arg]
+
 Shell-Script usually begins with one of the following typical line:
 
 - #!/bin/bash - Execute the file using the `Bash shell`
@@ -14,5 +17,12 @@ Shell-Script usually begins with one of the following typical line:
 This first line (#!/bin/bash or #!/bin/sh) has a name. 
 It is known as 'she-bang'(shabang) or also sometimes called as 'hashbang' or 'Interpreter Directive'
 
+Among, all the above formats, the best practice is as follows:
+    #!/usr/bin/env bash 
+    #!/usr/bin/env sh
+    #!/usr/bin/env python
+
 References:
     https://en.wikipedia.org/wiki/Shebang_%28Unix%29
+    https://askubuntu.com/a/88314
+    https://unix.stackexchange.com/a/87600
