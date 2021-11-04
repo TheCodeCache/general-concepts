@@ -11,6 +11,8 @@ Shell-Script usually begins with one of the following typical line:
     Used to prevent stand-alone execution of a script file intended for execution in a specific context, 
       such as by the `.` command from sh/bash, `source` from csh/tcsh, or as a .profile, .cshrc, or .login file
 
-This first line (#!/bin/bash or #!/bin/sh) has a name. It is known as 'she-bang'(shabang) or also sometimes called as 'hashbang'
+This first line (#!/bin/bash or #!/bin/sh) has a name. 
+It is known as 'she-bang'(shabang) or also sometimes called as 'hashbang' or 'Interpreter Directive'
+
 References:
     https://en.wikipedia.org/wiki/Shebang_%28Unix%29
