@@ -61,3 +61,12 @@ exec (data)
 
 #output: 30
 
+compile(...) explanation:
+  The first argument to compile() is the string of Python code to be compiled, which should be obvious. 
+  The second defines the "filename" of the piece of code (here, as is conventional, we use <string> to indicate code attained from the interactive shell). 
+  The third is the type of compilation, 
+    which most often will be 'exec',
+    other mode could be 'eval', which is used for strings containing only a single expression, 
+    3rd mode: 'single', in which the generated code object is expected to contain a single statement, 
+      whose return value is printed if it is not None (like in the interactive shell).
+
