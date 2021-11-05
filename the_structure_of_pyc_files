@@ -70,3 +70,8 @@ compile(...) explanation:
     3rd mode: 'single', in which the generated code object is expected to contain a single statement, 
       whose return value is printed if it is not None (like in the interactive shell).
 
+References:
+- https://late.am/post/2012/03/26/exploring-python-code-objects
+- https://nedbatchelder.com/blog/200804/the_structure_of_pyc_files.html
+- https://www.tutorialspoint.com/internal-python-object-serialization-marshal
+- https://docs.python.org/3/library/marshal.html
