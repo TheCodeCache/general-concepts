@@ -10,14 +10,15 @@ The callback will receive three arguments:
   arg (an event-specific value).   
 There are 7 event types for different levels of information that occur as a program is being executed.  
   
-Event         When                                arg_value  
-'call'        Before a function is executed.      None  
-'line'        Before a line is executed.          None  
-'return'      Before a function returns.          The value being returned.  
-'exception'   After an exception occurs.          The (exception, value, traceback) tuple.  
-'c_call'      Before a C function is called.      The C function object.  
-'c_return'    After a C function returns.         None  
-'c_exception' After a C function throws an error. None  
+Event|When|arg_value  
+-----|----|---------
+'call'|Before a function is executed.|None  
+'line'|Before a line is executed.|None  
+'return'|Before a function returns.|The value being returned.  
+'exception'|After an exception occurs.|The (exception, value, traceback) tuple.  
+'c_call'|Before a C function is called.|The C function object.  
+'c_return'|After a C function returns.|None  
+'c_exception'|After a C function throws an error.|None  
   
 Code:  
   The code can be found at : (https://github.com/TheCodeCache/general-concepts/tree/master/code/python/com/general/concepts/set_trace)  
