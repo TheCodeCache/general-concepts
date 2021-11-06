@@ -1,7 +1,7 @@
 When we compile a python code, it generates `.pyc` file, which is a binary file containing byte codes. \
   It's just like a regular file when it comes to CPython interpreter. \
   The interpreter reads `.pyc` file and for every 'opcode' in the byte-code, it executes a set of machine codes, which are already compiled into interpreter.\
-  More details on this topic is captured here: https://github.com/TheCodeCache/general-concepts/blob/master/How-Python-bytecode-runs-in-CPython\
+  More details on this topic is captured here: https://github.com/TheCodeCache/general-concepts/blob/master/How-Python-bytecode-runs-in-CPython
 
 At the simple level, a .pyc file is a binary file containing only three things:  
 - A four-byte magic number  
