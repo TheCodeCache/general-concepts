@@ -1,11 +1,11 @@
-PyPy:  
+**PyPy**:  
   PyPy is an alternative python implementation, on the similar lines of CPython,   
     it is claimed to be more memory efficient than its counterpart CPython,  
   Python programs often run faster on PyPy, because of JIT compilation feature,  
-PyPi:  
+**PyPi**:  
   PyPi is the repository for python packages, modules and libraries that you can install,  
   there're around 120970 packages hosted on PyPi  
-PyPM:  
+**PyPM**:  
   It's about how we want to set up or download/install python packages. It manages python libraries  
   For ex: Pip, Virtualenv, Anaconda, Pyenv  
   
