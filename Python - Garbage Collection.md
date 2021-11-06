@@ -1,4 +1,4 @@
-official resources to read from:  
+The official resources to read from:  
   1. https://devguide.python.org/garbage_collector/  
   2. https://docs.python.org/3/library/gc.html  
     
@@ -20,6 +20,7 @@ get_threshold()
   
 Other References:  
   https://stackoverflow.com/a/4484312  
-    http://arctrix.com/nas/python/gc/  
-    http://cms.digi.com/resources/documentation/digidocs/90001537/#References/r_Python_garbage_coll.htm?Highlight=garbage  
-      
+  http://arctrix.com/nas/python/gc/  
+  http://cms.digi.com/resources/documentation/digidocs/90001537/#References/r_Python_garbage_coll.htm?Highlight=garbage  
+    
+  
