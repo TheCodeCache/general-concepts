@@ -35,7 +35,7 @@ marshal.dump(codeobject, binaryfile) - where codeobject is the data to bw writte
 
 Code Example (working):
 
-
+```python
 '''
 marshal code
 '''
@@ -60,7 +60,7 @@ data = marshal.load(f)
 exec (data)
 
 #output: 30
-
+```
 compile(...) explanation:
   The first argument to compile() is the string of Python code to be compiled, which should be obvious. 
   The second defines the "filename" of the piece of code (here, as is conventional, we use <string> to indicate code attained from the interactive shell). 
