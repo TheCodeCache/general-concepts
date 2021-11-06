@@ -13,7 +13,7 @@ gc.isenabled()
   
 gc.collect(generation=2)  
   
-get_threshold() 
+get_threshold()  
   returns threshold limit, in order to decide for a GC trigger, for each of the 3 generations  
   
   
