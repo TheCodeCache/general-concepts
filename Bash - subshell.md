@@ -112,6 +112,20 @@ Save the following as `test.sh` and make it executable with `chmod +x test.sh`
   echo "This should never output"
 ```
 
+Notes:  
+ A subshell starts out as an almost identical copy of the original shell process.  
+ Under the hood, the shell calls the fork system call1, which creates a new process whose code and memory are copied.  
+ When the subshell is created, there are very few differences between it and its parent. In particular, they have the same variables.  
+ Even the $$ special variable keeps the same value in subshells: it's the original shell's process ID.  
+ Similarly $PPID is the PID of the parent of the original shell.  
+
+ A few shells change a few variables in the subshell. Bash sets BASHPID to the PID of the shell process, which changes in subshells.  
+ Bash, zsh and mksh arrange for $RANDOM to yield different values in the parent and in the subshell.  
+ But apart from built-in special cases like these,  
+ all variables have the same value in the subshell as in the original shell, the same export status, the same read-only status, etc.  
+ All function definitions, alias definitions, shell options and other settings are inherited as well.  
+
 Reference:
 1. https://cravencode.com/post/essentials/exit-shell-script-from-subshell/
+2. https://unix.stackexchange.com/a/138498
 
