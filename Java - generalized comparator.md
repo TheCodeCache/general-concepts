@@ -1,4 +1,4 @@
-# General Comparator Implementation:
+# General Comparator Code Impl.
 
 ```java
 // save this code as Comparison.java
