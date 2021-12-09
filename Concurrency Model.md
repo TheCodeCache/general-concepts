@@ -27,7 +27,7 @@ etc.
    The Lambda Architecture combines the strengths of MapReduce and stream processing to create an architecture that can tackle a wide variety of Big Data problems  
 
 
-**Reference:**  
+**References:**  
 1. http://tutorials.jenkov.com/java-concurrency/concurrency-models.html
 2. https://www.youtube.com/watch?v=lPTqcecwkJg
 3. Seven Concurrency Models in Seven Weeks - Text Book
