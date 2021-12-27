@@ -46,6 +46,10 @@ so, if we observe the first 2 processes are hogging all of I/O on our disk
 
 This's how we troubleshoot I/O issues on Linux machines  
 
+**Note:**  
+We can use `iostat`, `vmstat`, and `sar` commands to check disk I/O performance.  
+We can also check disk read and write activity by process using the `iotop` command.
+
 **Reference:**  
 1. https://www.youtube.com/watch?v=sjyLRS52zOg
 
