@@ -10,5 +10,7 @@ f.) The Linux uses `write-back` approach for caching, and not `write-through`, t
 g.) **buffer**: a buffer is an area of memory used to temporarily store data while being moved from one place to another  
 In addition, the `buffer` contains the `metadata of the files` or data which resides under the `page cache`  
 h.) a `cache` is a temporary storage area to store frequently accessed data for rapid access.  
+i.) file /sbin/{`halt`,`poweroff`,`reboot`,`shutdown`} -  
+we can use these system binaries to halt/shutdown/reboot and poweroff the unix machines.  
 
 
