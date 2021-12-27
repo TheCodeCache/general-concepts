@@ -63,7 +63,7 @@ $ chmod +x ./dd.sh
 $ ./dd.sh
 ```
 Once we execute the script, we can observe that it will overload four cores in our system.  
-Once we’re done, we can press <Enter> or <CTRL-C> to kill the process.  
+Once we're done, we can press <Enter> or <CTRL-C> to kill the process.  
 
 **Reference:**  
 1. https://en.wikipedia.org/wiki/Yes_%28Unix%29
