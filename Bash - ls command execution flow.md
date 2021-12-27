@@ -38,6 +38,6 @@ At high level, the following steps are involved:
   
 This is how the linux shell interprets a command!  
   
-Reference:  
+**Reference:**  
     - https://medium.com/@b.mugure/what-exactly-happens-when-you-type-ls-l-c-and-hit-enter-in-a-shell-e5516aea4436
-    
+
