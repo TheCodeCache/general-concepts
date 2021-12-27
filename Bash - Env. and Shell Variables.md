@@ -49,12 +49,9 @@ printenv HOSTNAME PATH HOME
 ```
 the above will print the values of the variables: hostname, path and home  
 
-# `export` - 
-We should not confuse environment variables with shell variables.  
-
 
 # Shell Variables - 
-
+We should not confuse `environment variables` with `shell variables`.  
 `Shell variables` are variables that apply to our current shell only and are not inherited by any programs or scripts that we execute.  
 
 We can get an overview of all variables that apply to our current shell by calling `set` -  
