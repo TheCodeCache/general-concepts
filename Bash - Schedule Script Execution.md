@@ -40,7 +40,7 @@ It `executes a command based on CPU load` and not on time parameters
 
 # security aspects - 
 
-We can restrict the users accessing the at and batch services using `/etc/at.deny` and `/etc/at.allow` files.  
+We can restrict the users accessing the `at` and `batch` services using `/etc/at.deny` and `/etc/at.allow` files.  
 
 Now, let's block the user jack from accessing at and `batch` services by simply adding the username into the `/etc/at.deny` file:  
 
