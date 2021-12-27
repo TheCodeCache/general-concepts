@@ -77,4 +77,5 @@ parallel -j 4 wget -q {} < list.txt
 **Reference:**  
 1. https://www.baeldung.com/linux/xargs#4-enable-multiple-process-usage
 2. https://askubuntu.com/a/710753
+3. https://www.slashroot.in/how-run-multiple-commands-parallel-linux
 
