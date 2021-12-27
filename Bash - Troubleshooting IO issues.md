@@ -52,4 +52,5 @@ We can also check disk read and write activity by process using the `iotop` comm
 
 **Reference:**  
 1. https://www.youtube.com/watch?v=sjyLRS52zOg
+2. https://www.baeldung.com/linux/monitor-disk-io
 
