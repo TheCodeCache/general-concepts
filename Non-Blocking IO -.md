@@ -38,6 +38,8 @@ The epoll API is thus particularly efficient in a scenario that is common in
 servers that handle many simultaneous clients: of the many file descriptors being  
 monitored, most are idle; only a few descriptors are ready  
 
+`epoll()` system-call is a way to achieve `non-blocking i/o` in Linux  
+
 High-performance web servers like `nginx` uses `epoll()` system-call to handle millions of requests/connections per second  
 
 **Reference:**  
