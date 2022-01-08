@@ -38,6 +38,8 @@ The epoll API is thus particularly efficient in a scenario that is common in
 servers that handle many simultaneous clients: of the many file descriptors being  
 monitored, most are idle; only a few descriptors are ready  
 
+High-performance web servers like `nginx` uses `epoll()` non-blocking api to handle millions of requests/connections per second  
+
 **Reference:**  
 1. https://medium.com/ing-blog/how-does-non-blocking-io-work-under-the-hood-6299d2953c74
 2. https://www.youtube.com/watch?v=y5xvYX0m61E
