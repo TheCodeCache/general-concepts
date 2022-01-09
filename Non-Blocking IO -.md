@@ -55,6 +55,9 @@ Does it block your thread while waiting for the response of the database?
 No! But as I mentioned earlier, JDBC is blocking by definition so who is blocking?  
 `The trick here is simply to have a second thread pool that will take the JDBC requests and block instead of your main thread`.  
 
+Generally, the benefits of non-blocking I/O starts appearing in once the workload is heavily I/O bound,  
+if the workload is cpu-bound, it's better to use blocking I/O because of the overhead associated with non-blocking I/O   
+
 We should give a read to [this](https://thetechsolo.wordpress.com/2016/02/29/scalable-io-events-vs-multithreading-based/)  
 
 **Reference:**  
