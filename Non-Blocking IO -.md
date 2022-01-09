@@ -13,7 +13,7 @@ To achieve the above goals, we've below options:
 
 We should almost always avoid busy-wait, in general, as it consumes nearly all of the available CPU.  
 
-# Non-blocking IO under the hood — 
+# Non-Blocking I/O under the hood — 
 
 Most `non-blocking frameworks use an infinite loop that constantly checks (polls) if data is returned from IO`.  
 This is often called the `event loop`. An event loop is literally a `while(true)` loop  
