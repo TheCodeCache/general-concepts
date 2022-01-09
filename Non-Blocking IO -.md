@@ -60,6 +60,8 @@ if the workload is cpu-bound, it's better to use blocking I/O because of the ove
 
 We should give a read to [this](https://thetechsolo.wordpress.com/2016/02/29/scalable-io-events-vs-multithreading-based/)  
 
+this [blog](https://medium.com/vaidikkapoor/understanding-non-blocking-i-o-with-python-part-1-ec31a2e2db9b) explains with code examples  
+
 **Reference:**  
 1. https://medium.com/ing-blog/how-does-non-blocking-io-work-under-the-hood-6299d2953c74
 2. https://www.youtube.com/watch?v=y5xvYX0m61E
