@@ -45,8 +45,21 @@ High-performance web servers like `nginx` uses `epoll()` system-call to handle m
 ![image](https://user-images.githubusercontent.com/26399543/148698354-43253acf-9586-42d0-b7dc-7032d6d933e6.png)  
 
 
+`Non-Blocking I/O` which refers to threads not waiting for I/O operations to finish.  
+However sometimes people refer to APIs as non-blocking only because they do not block the current thread,  
+but that doesn't necessarily mean they perform non-blocking I/O  
+
+For ex:  
+JDBC is blocking by definition. However there is a JDBC client out there which has an asynchronous API.  
+Does it block your thread while waiting for the response of the database?  
+No! But as I mentioned earlier, JDBC is blocking by definition so who is blocking?  
+`The trick here is simply to have a second thread pool that will take the JDBC requests and block instead of your main thread`.  
+
+We should give a read to [this](https://thetechsolo.wordpress.com/2016/02/29/scalable-io-events-vs-multithreading-based/)  
+
 **Reference:**  
 1. https://medium.com/ing-blog/how-does-non-blocking-io-work-under-the-hood-6299d2953c74
 2. https://www.youtube.com/watch?v=y5xvYX0m61E
 3. https://www.nginx.com/blog/inside-nginx-how-we-designed-for-performance-scale/
+4. https://thetechsolo.wordpress.com/2016/02/29/scalable-io-events-vs-multithreading-based/
 
