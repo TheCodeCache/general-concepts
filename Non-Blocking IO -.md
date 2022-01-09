@@ -42,7 +42,11 @@ monitored, most are idle; only a few descriptors are ready
 
 High-performance web servers like `nginx` uses `epoll()` system-call to handle millions of requests/connections per second  
 
+![image](https://user-images.githubusercontent.com/26399543/148698354-43253acf-9586-42d0-b7dc-7032d6d933e6.png)  
+
+
 **Reference:**  
 1. https://medium.com/ing-blog/how-does-non-blocking-io-work-under-the-hood-6299d2953c74
 2. https://www.youtube.com/watch?v=y5xvYX0m61E
+3. https://www.nginx.com/blog/inside-nginx-how-we-designed-for-performance-scale/
 
