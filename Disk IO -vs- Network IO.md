@@ -2,6 +2,7 @@
 References:   
   https://serverfault.com/a/238534  
   https://blog.codinghorror.com/the-infinite-space-between-words/  
+  http://highscalability.com/numbers-everyone-should-know
   
 Numbers Everyone Should Know  
 Operation|time  
